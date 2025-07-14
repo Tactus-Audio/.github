@@ -1,88 +1,80 @@
 # Tactus Audio
 
-*Open Source Audio DSP for Microcontrollers and FPGAs*
+**Open Source Audio DSP for Makers, Hackers, and Curious Engineers**
 
-## About
+## What’s This All About?
 
-Tactus Audio is dedicated to advancing practical audio signal processing through open source projects, tutorials, and educational resources. Our focus lies in real-world implementations of synthesizers, audio effects, and DSP algorithms for embedded systems.
+Tactus Audio is a hobby project and learning resource focused on practical, real-time audio DSP—especially using microcontrollers and FPGAs. It’s for makers, musicians, tinkerers, and embedded nerds who like to build things that make noise.
 
-## Mission
+You'll find working code, real-time audio projects, and tutorials aimed at people who'd rather hear results than do the math.
 
-As the digital audio landscape continues to evolve, there's a growing need for practical, musically-relevant implementations that bridge the gap between theory and application. Tactus Audio provides:
+## Why?
 
-- **Practical audio DSP projects** using widely available, affordable microcontrollers
-- **Real-world implementations** that prioritize working code over mathematical theory
-- **Broadly applicable techniques** - while audio-focused, the methods translate to many embedded applications
-- **Accessible hardware platforms** - no expensive development boards or specialized equipment required
-- **Educational resources** for Makers, hobbyists, and embedded engineers at all skill levels
+Because audio DSP doesn’t have to be expensive, theoretical, or locked away in academic papers. This is hands-on, accessible, and open source.
 
-## Focus Areas
+Tactus Audio exists to:
 
-### Practical Audio DSP on Affordable Hardware
-- STM32F4, STM32F7, and STM32H7 implementations using readily available development boards
-- Virtual analog synthesizer designs
-- Real-time audio effects processing
-- Custom DAE (Digital Audio Engine) frameworks
+* Share practical, working DSP code that runs on affordable dev boards
+* Explore sound synthesis, effects, and DSP techniques that anyone can use
+* Document tips and tricks that apply to all kinds of embedded systems—not just audio
+* Help fellow makers understand and enjoy audio DSP without needing a PhD
 
-### Broadly Applicable Embedded Techniques
-While audio-focused, these projects demonstrate techniques valuable across many domains:
-- Real-time signal processing patterns
-- Efficient interrupt handling and DMA usage  
-- Memory optimization strategies
-- Fixed-point arithmetic and lookup table techniques
-- Performance profiling and optimization methods
+## What You'll Find Here
 
-### FPGA Audio Processing
-- High-performance parallel audio algorithms
-- Low-latency processing architectures
-- Custom audio processing pipelines
+### Microcontroller-Based Audio DSP
 
-### Educational Content for Makers and Engineers
-Each project is accompanied by detailed tutorials available at [www.tactusaudio.com](https://www.tactusaudio.com), covering:
-- Step-by-step implementation guides using common, affordable hardware
-- Performance optimization techniques applicable to many embedded projects
-- Practical debugging and testing approaches
-- Real-world considerations over theoretical completeness
+* Real-time effects and synths on STM32F4/F7/H7 and ESP32 boards
+* Virtual analog designs, delay lines, filters, oscillators, etc.
+* A custom lightweight DSP framework
+* Using widely available components.
 
-## Philosophy
+### Embedded Techniques That Go Beyond Audio
 
-> "If you can't hear it make a difference, remove it."
+* Real-time code patterns for MCUs
+* Interrupts, DMA, circular buffers, and fixed-point math
+* Code that works hard to run fast, not just look clever
 
-Our approach prioritizes:
-- **Practical implementation** over theoretical completeness
-- **Affordable, accessible hardware** - using development boards anyone can purchase
-- **Musical relevance** over mathematical perfection  
-- **Broadly applicable techniques** - audio provides the examples, but the methods apply widely
-- **Clear, maintainable code** that Makers and engineers can learn from and adapt
-- **Audible results** as the ultimate measure of success
+### FPGA Audio Experiments
 
-## About the Maintainer
+* Parallel DSP pipelines
+* Ultra-low-latency designs
+* Just enough HDL to make cool sounds
 
-Drawing from a 40+ year career in embedded systems and a background as a classically trained musician who worked in professional studios during the synthesizer revolution of the 1980s and 1990s, these projects represent a synthesis of deep technical knowledge and musical understanding.
+### Maker-Friendly Tutorials
 
-The combination of extensive microcontroller experience and hands-on familiarity with vintage synthesizers and effects provides a unique perspective on implementing audio DSP that serves real musical needs.
+All projects are paired with blog posts or guides at [tactusaudio.com](https://www.tactusaudio.com), including:
 
-## Getting Started
+* Step-by-step build instructions
+* Explanations of how and why things work
+* Debugging tips and gotchas
+* Sound clips and scope captures when possible
 
-Browse our repositories to find projects that match your interests and skill level. All projects are designed around commonly available, affordable development boards - no expensive or hard-to-find hardware required.
+## A Quick Philosophy Break
 
-Each repository includes:
-- Complete, buildable source code
-- Bill of materials using readily available components
-- Hardware setup instructions for common development boards
-- Links to corresponding tutorial articles
-- Audio samples and demonstrations where applicable
+> "If you can’t hear it make a difference, remove it."
 
-For comprehensive tutorials and background information, visit [www.tactusaudio.com](https://www.tactusaudio.com).
+This whole project runs on:
 
-## Contributing
+* Practical over perfect
+* Real-time over real-complicated
+* Music-first, math-second
+* Code that’s hackable, not impenetrable
 
-We welcome contributions, suggestions, and discussions from the audio DSP community. Whether you're fixing bugs, proposing optimizations, or suggesting new project directions, your input helps advance practical audio development for everyone.
+## Who’s Behind This?
+
+I'm a lifelong embedded engineer with 40+ years in the industry and a side passion for audio. I grew up during the analog synth boom, worked in studios in the '80s and '90s, and now enjoy building DSP toys in my spare time.
+
+This isn’t my day job—it’s my hobby. And if you like to solder, scope, or synthesize, maybe it's yours too.
+
+## Got Ideas?
+
+Open a pull request, file an issue, or just reach out. This is a hobby, not a product—experiments, suggestions, and side quests are welcome.
 
 ## License
 
-Projects are released under open source licenses to encourage learning, experimentation, and further development by the community.
+All projects are open source and free to use, tweak, and share.
 
 ---
 
-*Tactus Audio - Where embedded expertise meets musical insight*
+**Tactus Audio – Practical DSP, made for ears, not labs.**
+
